@@ -1,0 +1,129 @@
+[
+  {
+    "id": 1,
+    "name": "AI Writing Pro",
+    "description": "Generate high-quality content, blogs, and marketing copy in seconds with advanced AI.",
+    "price": 29,
+    "period": "monthly",
+    "tag": "Best Seller",
+    "tagType": "best seller",
+    "features": [
+      "Unlimited AI generations",
+      "50+ writing templates",
+      "Grammar checker"
+    ],
+    "icon": "✍️"
+  },
+  {
+    "id": 2,
+    "name": "ResumePro",
+    "description": "AI-powered resume builder that helps you create professional resumes in minutes.",
+    "price": 29,
+    "period": "one-time",
+    "tag": "best seller",
+    "tagType": "best seller",
+    "features": [
+      "100+ modern templates",
+      "ATS optimization",
+      "AI content suggestions",
+      "Export to PDF & Word"
+    ],
+    "icon": "📄"
+  },
+  {
+    "id": 3,
+    "name": "CoverLetter AI",
+    "description": "Generate personalized, job-winning cover letters using advanced AI.",
+    "price": 12,
+    "period": "monthly",
+    "tag": "new",
+    "tagType": "new",
+    "features": [
+      "Job description analysis",
+      "Tailored content generation",
+      "Multiple tone options",
+      "Unlimited generations"
+    ],
+    "icon": "✉️"
+  },
+  {
+    "id": 4,
+    "name": "CareerBoost Pro",
+    "description": "Complete career toolkit with resume, cover letter, and LinkedIn optimization.",
+    "price": 19,
+    "period": "monthly",
+    "tag": "popular",
+    "tagType": "popular",
+    "features": [
+      "Resume + Cover Letter builder",
+      "LinkedIn profile optimizer",
+      "Interview question prep",
+      "Career coaching AI"
+    ],
+    "icon": "🚀"
+  },
+  {
+    "id": 5,
+    "name": "InterviewMaster",
+    "description": "AI mock interview coach with real-time feedback and performance analysis.",
+    "price": 49,
+    "period": "yearly",
+    "tag": "best seller",
+    "tagType": "best seller",
+    "features": [
+      "1000+ interview questions",
+      "Real-time voice analysis",
+      "Body language feedback",
+      "Company-specific prep"
+    ],
+    "icon": "🎤"
+  },
+  {
+    "id": 6,
+    "name": "PortfolioForge",
+    "description": "Build a stunning personal portfolio website in under 10 minutes.",
+    "price": 79,
+    "period": "one-time",
+    "tag": "new",
+    "tagType": "new",
+    "features": [
+      "50+ beautiful templates",
+      "Drag & drop builder",
+      "Mobile responsive",
+      "SEO optimized"
+    ],
+    "icon": "🖼️"
+  },
+  {
+    "id": 7,
+    "name": "SkillForge Academy",
+    "description": "Learn in-demand skills with AI-personalized learning paths and projects.",
+    "price": 15,
+    "period": "monthly",
+    "tag": "popular",
+    "tagType": "popular",
+    "features": [
+      "Personalized learning paths",
+      "Hands-on projects",
+      "AI tutor assistant",
+      "Certificate on completion"
+    ],
+    "icon": "📚"
+  },
+  {
+    "id": 8,
+    "name": "LinkedIn Rocket",
+    "description": "Grow your professional network and get more opportunities on LinkedIn.",
+    "price": 25,
+    "period": "monthly",
+    "tag": "",
+    "tagType": "popular",
+    "features": [
+      "Profile optimization",
+      "Content idea generator",
+      "Post scheduling",
+      "Engagement analytics"
+    ],
+    "icon": "💼"
+  }
+]
