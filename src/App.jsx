@@ -9,6 +9,7 @@ import Cart from "./componants/Cart";
 import GetStart from "./componants/GetStart";
 import Trasparant from "./componants/Trasparant";
 import Transform from "./componants/Transform";
+import Fotter from "./componants/Fotter";
 const getModels = async () => {
   const res = await fetch("/public/daata.json");
   return res.json();
@@ -62,6 +63,7 @@ function App() {
         <Trasparant dataPromis={dataPromis} />
       </Suspense>
       <Transform />
+      <Fotter />
     </>
   );
 }
