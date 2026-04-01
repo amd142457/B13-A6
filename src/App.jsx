@@ -11,12 +11,12 @@ import Trasparant from "./componants/Trasparant";
 import Transform from "./componants/Transform";
 import Fotter from "./componants/Fotter";
 const getModels = async () => {
-  const res = await fetch("/public/daata.json");
+  const res = await fetch("./daata.json");
   return res.json();
 };
 const modelPromise = getModels();
 const getTransparant = async () => {
-  const res = await fetch("/public/Transparant.json");
+  const res = await fetch("./Transparant.json");
   return res.json();
 };
 const dataPromis = getTransparant();
