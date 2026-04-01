@@ -31,38 +31,60 @@ function App() {
       <Bennar />
       <Rating />
       {/* name of each tab group should be unique */}
-      <div className="tabs tabs-box justify-center bg-transparent p-12">
+      <div className="text-center pt-10 space-y-2.5">
+        <h1 className="text-5xl font-bold ">Premium Digital Tools</h1>
+        <p className="text-[0.90em] text-gray-400">
+          Choose from our curated collection of premium <br /> digital products
+          designedto boost your productivity and creativity.
+        </p>
+      </div>
+      <div className="tabs tabs-box justify-center bg-transparent p-12 ">
         <input
           type="radio"
           name="my_tabs_1"
-          className="tab rounded-full w-40"
           aria-label="products"
           defaultChecked
           onClick={() => setBtn("products")}
+          className={`btn rounded-full w-40 font-bold transition-colors duration-300 mr-3 ${
+            isBtn === "products"
+              ? "bg-linear-to-r from-[#4F39F6] to-[#9514FA] text-white"
+              : "bg-gray-200 text-gray-800"
+          }`}
         />
         <input
           type="radio"
           name="my_tabs_1"
-          className="tab rounded-full w-40"
           aria-label={`card(${isCart.length})`}
           onClick={() => setBtn("card")}
+          className={`btn rounded-full w-40 font-bold transition-colors duration-300 ${
+            isBtn === "card"
+              ? "bg-linear-to-r from-[#4F39F6] to-[#9514FA] text-white"
+              : "bg-gray-200 text-gray-800"
+          }`}
         />
       </div>
       {isBtn === "products" && (
-        <Model modelPromise={modelPromise} isCart={isCart} setCart={setCart} />
+        <>
+          <Model
+            modelPromise={modelPromise}
+            isCart={isCart}
+            setCart={setCart}
+          />
+          <GetStart />
+          <Suspense
+            fallback={
+              <div className="text-center py-20 text-2xl">
+                Loading Transparent Section...
+              </div>
+            }
+          >
+            <Trasparant dataPromis={dataPromis} />
+          </Suspense>
+          <Transform />
+        </>
       )}
       {isBtn === "card" && <Cart isCart={isCart} setCart={setCart} />}
-      <GetStart />
-      <Suspense
-        fallback={
-          <div className="text-center py-20 text-2xl">
-            Loading Transparent Section...
-          </div>
-        }
-      >
-        <Trasparant dataPromis={dataPromis} />
-      </Suspense>
-      <Transform />
+
       <Fotter />
     </>
   );

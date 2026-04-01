@@ -6,7 +6,7 @@ const Transform = () => {
       <div className="hero bg-linear-to-r from-[#4F39F6] to-[#9514FA] p-20">
         <div className="hero-content text-center">
           <div className="max-w-md">
-            <h1 className="text-5xl font-bold text-white">
+            <h1 className="font-bold text-white text-3xl md:text-5xl lg:text-6xl">
               Ready to Transform Your Workflow?
             </h1>
             <p className="py-6 text-white">
