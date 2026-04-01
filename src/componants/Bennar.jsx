@@ -7,7 +7,7 @@ const Bennar = () => {
         <div className="hero-content flex-col lg:flex-row-reverse gap-6">
           {/* Image */}
           <img
-            src="/src/assets/banner.png"
+            src="./banner.png"
             className="w-full max-w-xs sm:max-w-sm md:max-w-md rounded-lg shadow-2xl"
             alt="banner"
           />
