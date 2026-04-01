@@ -17,7 +17,7 @@ const Cart = ({ isCart, setCart }) => {
     <div className="p-5">
       <div className="text-center space-y-2">
         <h1 className="text-3xl font-bold">Premium Digital Tools</h1>
-        <p className="text-gray-400">
+        <p className="text-gray-380">
           Choose from our curated collection of premium digital products
           designed <br></br> o boost your productivity and creativity.
         </p>
