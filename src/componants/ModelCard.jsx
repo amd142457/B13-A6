@@ -11,9 +11,9 @@ const ModelCard = ({ model, isCart, setCart }) => {
   };
 
   return (
-    <a href="#" className="hover-3d  cursor-pointer ">
+    <a href="#" className="hover-3d  cursor-pointer  ">
       <div className="mt-7 ">
-        <div className=" shadow-lg p-4 flex flex-col h-full rounded-xl space-y-3 border border-gray-300 ">
+        <div className=" shadow-lg p-4 flex flex-col h-full rounded-xl space-y-3 border border-gray-300 bg-linear-to-br from-[#f5f3ff] via-[#ede9fe] to-[#ddd6fe]">
           <div className="flex justify-end ">
             <p className=" btn rounded-full ">{model.tagType}</p>
           </div>

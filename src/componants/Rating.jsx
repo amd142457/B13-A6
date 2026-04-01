@@ -15,9 +15,7 @@ const Rating = () => {
 
           {/* Premium Tools */}
           <div className="space-y-3 group">
-            <h2 className="text-5xl md:text-6xl font-bold text-white transition-all duration-700 group-hover:scale-110">
-              200+
-            </h2>
+            <h2 className="text-5xl md:text-6xl font-bold text-white ">200+</h2>
             <p className="text-white/90 text-lg font-medium">Premium Tools</p>
           </div>
 
